@@ -1,0 +1,23 @@
+﻿{
+  "dependencies": {
+    "Microsoft.Azure.Mobile": "0.14.0",
+    "Microsoft.Azure.Mobile.Analytics": "0.14.0",
+    "Microsoft.Azure.Mobile.Crashes": "0.14.0",
+    "Microsoft.Azure.Mobile.Distribute": "0.14.0",
+    "Microsoft.Bcl.Build": "1.0.21",
+    "PCLCrypto": "2.0.147",
+    "PInvoke.BCrypt": "0.3.2",
+    "PInvoke.Kernel32": "0.3.2",
+    "PInvoke.NCrypt": "0.3.2",
+    "PInvoke.Windows.Core": "0.3.2",
+    "Syncfusion.Xamarin.Compression": "15.2.0.46",
+    "Syncfusion.Xamarin.Pdf": "15.2.0.46",
+    "Validation": "2.2.8",
+    "Xamarin.Auth": "1.5.0.3",
+    "Xamarin.Auth.XamarinForms": "1.5.0.3",
+    "Xamarin.Forms": "2.3.4.258"
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {}
+  }
+}

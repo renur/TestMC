@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:OAuthAuthentication" x:Class="OAuthAuthentication.OAuthAuthenticationPage" xmlns:gesture="clr-namespace:OAuthAuthentication">
+	 <StackLayout>
+
+             <Button Text="Login using Google" BackgroundColor="Red" TextColor="White" Clicked="Handle_Clicked"/>
+             <Button Text="Login using Facebook" BackgroundColor="Blue" TextColor="White" Clicked="Facebook_Clicked"/>
+
+        <Label Text="Press Me" WidthRequest="250" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="{Binding TextColor}" BackgroundColor="{Binding BackgroundColor}" VerticalOptions="Center" HorizontalOptions="Center">    
+            <Label.GestureRecognizers>     
+              <gesture:PressedGestureRecognizer Command="{Binding PressedGestureCommand}" />
+              <gesture:ReleasedGestureRecognizer Command="{Binding ReleasedGestureCommand}" />
+            </Label.GestureRecognizers>
+          </Label>
+
+        </StackLayout>
+    
+</ContentPage>
